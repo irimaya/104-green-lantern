@@ -1,59 +1,54 @@
-/* Main Styling */
-h2 { font-size: 1.7rem; }
-
 /* Utility Classes */
-.display-1 { 
-  font-size: 50px; 
+.display-1 {
+  font-size: 40px;
 }
-
-.pt-1 { padding-top: 10px; }
-.pb-1 { padding-top: 10px; }
 
 /* Navbar */
-#navbar {
-  margin: 20px;
-  padding: 10px;
-}
+/* #navbar {
+  border: 1px solid #000;
+  margin: 50px;
+  padding: 20px;
+} */
 
 #navbar .logo {
-  text-align: center;
   float: none;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-#navbar ul {
-  list-style: none;
-  float: right;
+#navbar ul li a {
+  padding: 10px;
 }
 
 /* Showcase */
-#showcase h1 {
-  margin: 20px 0 10px 0;
-}
-
 #showcase img {
-  height: 100%;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 20px;
+  height: 300px;
 }
 
 /* Product */
-.product-box {
-  border: none;
-  padding: 10px;
-  height: 100%;
-  margin: 0px;
+#product h2 {
+  padding-bottom: 20px;
 }
 
-/* .product-box img {
+#product h4 {
+  padding-bottom: 20px;
+}
+
+.product-box {
+  border: none;
+  padding: 20px;
+  height: 100%;
+  margin-top: 0px;
+}
+
+.product-box img {
   width: 100%;
-} */
+}
 
 .product-1-img,
 .product-2-img {
   float: none;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .product-1-text,
@@ -61,7 +56,7 @@ h2 { font-size: 1.7rem; }
   float: none;
   width: 100%;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 /* About */
@@ -69,27 +64,41 @@ h2 { font-size: 1.7rem; }
   text-align: center;
 }
 
-.about-box-1,
-.about-box-2 {
+#about h2 {
+  padding-bottom: 20px;
+}
+
+.about-box-1 {
   float: none;
   width: 100%;
-  padding: 0 20px;
 }
 
 .about-box-1 h3 {
   font-size: 40px;
-  padding-top: 0;
-  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.about-box-2 {
+  float: none;
+  width: 100%;
 }
 
 /* Contact */
-.contact-description,
-.contact-form {
+#contact h2 {
+  padding-bottom: 20px;
+} 
+
+.contact-description {
   float: none;
   width: 100%;
-  padding: 10px 20px;
 }
 
 .contact-description p {
   padding-top: 0px;
+}
+
+.contact-form {
+  float: none;
+  width: 100%;
+  padding: 30px;
 }
